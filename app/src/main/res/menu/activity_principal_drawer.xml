@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Mapas">
+        <menu>
+            <item
+                android:id="@+id/nav_exemplobasico"
+                android:icon="@drawable/location_on_24"
+                android:title="Mapa Básico" />
+            <item
+                android:id="@+id/nav_provider1"
+                android:icon="@drawable/location_on_24"
+                android:title="Mapa Versão 1" />
+            <item
+                android:id="@+id/nav_provider2"
+                android:icon="@drawable/location_on_24"
+                android:title="Mapa Versão 2" />
+        </menu>
+    </item>
+
+    <item android:title="Outros">
+        <menu>
+            <item
+                android:id="@+id/nav_marcadores"
+                android:icon="@drawable/locinterrog48"
+                android:title="Marcadores" />
+            <item
+                android:id="@+id/nav_info"
+                android:icon="@drawable/identity24"
+                android:title="Dados Pessoais" />
+            <item
+                android:id="@+id/nav_myloc"
+                android:icon="@drawable/mylocation18"
+                android:title="Meu Endereço" />
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/exit24"
+                android:title="Sair" />
+        </menu>
+    </item>
+
+</menu>

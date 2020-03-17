@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Wikky Maps</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_act_principal">Wikky Maps</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_marker">MarkerActivity</string>
+
+    <string-array name="spinner_racacor">
+        <item>Nao Informado</item>
+        <item>Branco</item>
+        <item>Preto</item>
+        <item>Pardo</item>
+        <item>Amarelo</item>
+        <item>Indígena</item>
+    </string-array>
+    <string-array name="spinner_estado">
+        <item>Nao Informado</item>
+        <item>AC</item>
+        <item>AL</item>
+        <item>AP</item>
+        <item>AM</item>
+        <item>BA</item>
+        <item>CE</item>
+        <item>DF</item>
+        <item>ES</item>
+        <item>GO</item>
+        <item>MA</item>
+        <item>MT</item>
+        <item>MS</item>
+        <item>MG</item>
+        <item>PA</item>
+        <item>PB</item>
+        <item>PR</item>
+        <item>PE</item>
+        <item>PI</item>
+        <item>RJ</item>
+        <item>RN</item>
+        <item>RS</item>
+        <item>RO</item>
+        <item>RR</item>
+        <item>SC</item>
+        <item>SP</item>
+        <item>SE</item>
+        <item>TO</item>
+
+    </string-array>
+</resources>

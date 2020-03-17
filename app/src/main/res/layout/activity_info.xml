@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Act.InfoActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btnVoltarTelaInicial2"
+            android:text="Voltar Tela Anterior"
+            android:background="@drawable/border_rounded_silver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txtUid2"
+            android:text="UID"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txtNome2"
+            android:text="Nome Completo"
+            android:textSize="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="16dp"
+            android:id="@+id/txtCpf2"
+            android:layout_marginTop="7dp"
+            android:text="Cpf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textSize="16dp"
+            android:id="@+id/txtDtNasc2"
+            android:layout_marginTop="7dp"
+            android:text="Data de Nascimento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="16dp"
+            android:id="@+id/txtCidNasc2"
+            android:layout_marginTop="7dp"
+            android:text="Município de Nascimento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="16dp"
+            android:id="@+id/txtEstNasc2"
+            android:layout_marginTop="7dp"
+            android:text="Estado de Nascimento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="16dp"
+            android:id="@+id/txtRacaCor2"
+            android:layout_marginTop="7dp"
+            android:text="Raça/Cor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="16dp"
+            android:id="@+id/txtSexo2"
+            android:layout_marginTop="7dp"
+            android:text="Sexo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textSize="16dp"
+            android:id="@+id/txtEndereco2"
+            android:layout_marginTop="7dp"
+            android:text="Endereço"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="16dp"
+            android:id="@+id/txtBairro2"
+            android:layout_marginTop="7dp"
+            android:text="Bairro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="16dp"
+            android:id="@+id/txtCidade2"
+            android:layout_marginTop="7dp"
+            android:text="Município"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="16dp"
+            android:id="@+id/txtEstado2"
+            android:layout_marginTop="7dp"
+            android:text="Estado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="16dp"
+            android:id="@+id/txtPais2"
+            android:layout_marginTop="7dp"
+            android:text="País"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="16dp"
+            android:id="@+id/txtTelefone2"
+            android:layout_marginTop="7dp"
+            android:text="Telefone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="16dp"
+            android:id="@+id/txtEmail2"
+            android:layout_marginTop="7dp"
+            android:text="E-Mail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</ScrollView>

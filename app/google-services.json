@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "830593440306",
+    "firebase_url": "https://endless-empire-227502.firebaseio.com",
+    "project_id": "endless-empire-227502",
+    "storage_bucket": "endless-empire-227502.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:830593440306:android:e87790ec0959cc84",
+        "android_client_info": {
+          "package_name": "com.thewikky.wikkymaps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "830593440306-19t090gn6e8omg24r9koru55vqjce24s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.thewikky.wikkymaps",
+            "certificate_hash": "43c84352abc3500af45dcbce13e3d478dd456f52"
+          }
+        },
+        {
+          "client_id": "830593440306-p6ggu38e9n39og5a3m6tonsnumgj5522.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDG2MkKNPv-CKYeghGye3DwLGRMuDqm-v8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "830593440306-p6ggu38e9n39og5a3m6tonsnumgj5522.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

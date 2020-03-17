@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:background="@drawable/border_rounded"
+            android:layout_marginTop="15dp"
+            android:id="@+id/edtEmailParaLogin"
+            android:hint="E-Mail para Login*"
+            android:inputType="textEmailAddress"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:background="@drawable/border_rounded"
+            android:id="@+id/edtSenhaParaLogin"
+            android:hint="Senha para Login*"
+            android:inputType="text"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/edtNomeCompleto"
+            android:hint="Nome Completo*"
+            android:inputType="textPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/edtCpf"
+            android:hint="CPF*"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/edtDtNasc"
+            android:hint="Data de Nascimento*"
+            android:inputType="date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/txtCidadeDeNascimento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="Cidade de Nascimento"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_toRightOf="@+id/txtCidadeDeNascimento"
+                android:id="@+id/txtEstadoDeNascimento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:text="Estado de Nascimento"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/edtCidNasc"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtCidadeDeNascimento"
+                android:hint="Município Nascimento"
+                android:inputType="textPersonName" />
+            <Spinner
+                android:layout_centerHorizontal="true"
+                android:id="@+id/spnEstNasc"
+                android:layout_width="175dp"
+                android:layout_height="46dp"
+                android:layout_below="@+id/txtCidadeDeNascimento"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="0dp"
+                android:layout_toRightOf="@+id/edtCidNasc"
+                android:entries="@array/spinner_estado" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/txtRacaCor"
+            android:text="Selecione sua Raça/Cor:"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Spinner
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/txtRacaCor"
+            android:id="@+id/spnRacaCor"
+            android:entries="@array/spinner_racacor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Selecione seu Gênero:"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_marginTop="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <RadioGroup
+            android:orientation="horizontal"
+            android:id="@+id/rgSexo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/rbMasc"
+                android:text="Masculino"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:id="@+id/rbFem"
+                android:text="Feminino"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </RadioGroup>
+
+        <!-- Localização -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/edtCep"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:hint="C.E.P"
+            android:inputType="number" />
+        <EditText
+            android:id="@+id/edtEndereco"
+            android:hint="Endereço"
+            android:inputType="textPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/edtBairro"
+            android:layout_marginLeft="10dp"
+            android:hint="Bairro"
+            android:inputType="textPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/edtCidade"
+            android:layout_marginLeft="10dp"
+            android:hint="Município"
+            android:inputType="textPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/edtEstado"
+            android:layout_marginLeft="10dp"
+            android:hint="Estado"
+            android:inputType="textPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/edtPais"
+            android:layout_marginLeft="10dp"
+            android:hint="PAÍS"
+            android:inputType="textPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Contato -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/edtTelefone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Telefone/Celular"
+            android:inputType="phone" />
+        <EditText
+            android:id="@+id/edtEmailContato"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="E-Mail para Contato"
+            android:inputType="textEmailAddress" />
+
+    </LinearLayout>
+
+</ScrollView>
